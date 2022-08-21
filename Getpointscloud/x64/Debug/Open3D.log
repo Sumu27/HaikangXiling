@@ -1,0 +1,6 @@
+﻿  main.cpp
+E:\Mv3dRgbdSDK\include\Mv3dRgbdApi.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Mv3dRgbdSDK\include\Mv3dRgbdDefine.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Mv3dRgbdSDK\include\Mv3dRgbdImgProc.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Mv3dRgbdSDK\Sample\Open3D\main.cpp(53,31): warning C4018: “<”: 有符号/无符号不匹配
+  Open3D.vcxproj -> E:\Mv3dRgbdSDK\Sample\Open3D\bin\win64\debug\Open3D.exe

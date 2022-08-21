@@ -1,0 +1,608 @@
+[2022-06-23 09:30:03:0585] | Info     | Manager.cpp              -L1655: ---------------------Start call Mv3dRgbd.dll start--------------------
+[2022-06-23 09:30:03:0586] | Info     | Manager.cpp              -L1659: Build Time[220615_14:20:53], SDK version[0x1000003].
+[2022-06-23 09:30:03:0586] | Info     | Manager.cpp              -L1661: Mv3dRgbd.dll path [C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbd.dll]
+[2022-06-23 09:30:03:0586] | Info     | Manager.cpp              -L1662: Current ExE path [E:\Mv3dRgbdSDK\Sample\Open3D\bin\win64\debug\Open3D.exe]
+[2022-06-23 09:30:03:0586] | Info     | Manager.cpp              -L1667: Config (C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini) exist .
+[2022-06-23 09:30:03:0586] | Info     | Manager.cpp              -L1674: DebugMode[0], nLogSize[100].
+[2022-06-23 09:30:03:0586] | Info     | Manager.cpp              -L1082: [Init] Begin.
+[2022-06-23 09:30:03:0587] | Info     | Manager.cpp              -L1115: [Init] end success.
+[2022-06-23 09:30:03:0587] | Info     | Manager.cpp              -L0465: [BindDevBySomeWay] start. chParm[00K14280159].
+[2022-06-23 09:30:03:0587] | Info     | CameraModule.cpp         -L0085: [Enum] begin.
+[2022-06-23 09:30:03:0720] | Info     | CameraModule.cpp         -L0102: [Enum] enum by gige sdk, get camera num:[1].
+[2022-06-23 09:30:03:0720] | Info     | CameraModule.cpp         -L0105: [Enum] end success.
+[2022-06-23 09:30:03:0720] | Info     | Manager.cpp              -L0569: [CompareBindParm] param bFind[1]  nFindNum[0] .
+[2022-06-23 09:30:03:0720] | Info     | Manager.cpp              -L1042: [CreateHandle] begin.
+[2022-06-23 09:30:03:0720] | Info     | CameraModule.cpp         -L0156: [CreateHandle] Get Gige Sdk version:(0x4000004).
+[2022-06-23 09:30:03:0781] | Info     | Manager.cpp              -L1075: [CreateHandle] end success.
+[2022-06-23 09:30:03:0781] | Info     | Manager.cpp              -L0494: [BindDevBySomeWay] end. chParm[00K14280159].
+[2022-06-23 09:30:03:0781] | Info     | Manager.cpp              -L0382: [BindDevice] bind device SN[00K14280159] Model[MV-EB435i] ip[2bdf00K14280159] SubNetmask[] gateway[].
+[2022-06-23 09:30:03:0781] | Info     | Manager.cpp              -L0933: [ConnectDevice] begin.
+[2022-06-23 09:30:04:0027] | Info     | Manager.cpp              -L0978: [ConnectDevice] Get BufferNode count from C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini\BufferNode, value[5].
+[2022-06-23 09:30:04:0027] | Info     | Manager.cpp              -L0986: [ConnectDevice] SetImageNodeNum value[5].
+[2022-06-23 09:30:04:0029] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(CameraWorkingMode) nValue(4).
+[2022-06-23 09:30:04:0031] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ImageMode) nValue(2).
+[2022-06-23 09:30:04:0033] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkModeActive) bValue(1).
+[2022-06-23 09:30:04:0033] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(24).
+[2022-06-23 09:30:04:0034] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-23 09:30:04:0034] | Error    | Manager.cpp              -L0898: m_nDeviceType:00000004.
+[2022-06-23 09:30:04:0035] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(19).
+[2022-06-23 09:30:04:0036] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-23 09:30:04:0036] | Info     | Manager.cpp              -L1035: [ConnectDevice] end success.
+[2022-06-23 09:30:04:0037] | Info     | Manager.cpp              -L1482: [Start] begin.
+[2022-06-23 09:34:00:0332] | Info     | Manager.cpp              -L1655: ---------------------Start call Mv3dRgbd.dll start--------------------
+[2022-06-23 09:34:00:0333] | Info     | Manager.cpp              -L1659: Build Time[220615_14:20:53], SDK version[0x1000003].
+[2022-06-23 09:34:00:0333] | Info     | Manager.cpp              -L1661: Mv3dRgbd.dll path [C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbd.dll]
+[2022-06-23 09:34:00:0333] | Info     | Manager.cpp              -L1662: Current ExE path [E:\Mv3dRgbdSDK\Sample\Open3D\bin\win64\debug\Open3D.exe]
+[2022-06-23 09:34:00:0333] | Info     | Manager.cpp              -L1667: Config (C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini) exist .
+[2022-06-23 09:34:00:0333] | Info     | Manager.cpp              -L1674: DebugMode[0], nLogSize[100].
+[2022-06-23 09:34:00:0333] | Info     | Manager.cpp              -L1082: [Init] Begin.
+[2022-06-23 09:34:00:0334] | Info     | Manager.cpp              -L1115: [Init] end success.
+[2022-06-23 09:34:00:0334] | Info     | Manager.cpp              -L0465: [BindDevBySomeWay] start. chParm[00K14280159].
+[2022-06-23 09:34:00:0334] | Info     | CameraModule.cpp         -L0085: [Enum] begin.
+[2022-06-23 09:34:00:0468] | Info     | CameraModule.cpp         -L0102: [Enum] enum by gige sdk, get camera num:[1].
+[2022-06-23 09:34:00:0468] | Info     | CameraModule.cpp         -L0105: [Enum] end success.
+[2022-06-23 09:34:00:0468] | Info     | Manager.cpp              -L0569: [CompareBindParm] param bFind[1]  nFindNum[0] .
+[2022-06-23 09:34:00:0468] | Info     | Manager.cpp              -L1042: [CreateHandle] begin.
+[2022-06-23 09:34:00:0468] | Info     | CameraModule.cpp         -L0156: [CreateHandle] Get Gige Sdk version:(0x4000004).
+[2022-06-23 09:34:00:0517] | Info     | Manager.cpp              -L1075: [CreateHandle] end success.
+[2022-06-23 09:34:00:0517] | Info     | Manager.cpp              -L0494: [BindDevBySomeWay] end. chParm[00K14280159].
+[2022-06-23 09:34:00:0517] | Info     | Manager.cpp              -L0382: [BindDevice] bind device SN[00K14280159] Model[MV-EB435i] ip[2bdf00K14280159] SubNetmask[] gateway[].
+[2022-06-23 09:34:00:0517] | Info     | Manager.cpp              -L0933: [ConnectDevice] begin.
+[2022-06-23 09:34:00:0752] | Info     | Manager.cpp              -L0978: [ConnectDevice] Get BufferNode count from C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini\BufferNode, value[5].
+[2022-06-23 09:34:00:0752] | Info     | Manager.cpp              -L0986: [ConnectDevice] SetImageNodeNum value[5].
+[2022-06-23 09:34:00:0753] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(CameraWorkingMode) nValue(4).
+[2022-06-23 09:34:00:0754] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ImageMode) nValue(2).
+[2022-06-23 09:34:00:0756] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkModeActive) bValue(1).
+[2022-06-23 09:34:00:0756] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(24).
+[2022-06-23 09:34:00:0757] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-23 09:34:00:0757] | Error    | Manager.cpp              -L0898: m_nDeviceType:00000004.
+[2022-06-23 09:34:00:0758] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(19).
+[2022-06-23 09:34:00:0759] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-23 09:34:00:0759] | Info     | Manager.cpp              -L1035: [ConnectDevice] end success.
+[2022-06-23 09:34:00:0759] | Info     | Manager.cpp              -L1482: [Start] begin.
+[2022-06-23 09:34:00:0869] | Info     | Manager.cpp              -L1510: [Start] StartGrabbing success.
+[2022-06-23 09:34:00:0869] | Info     | Manager.cpp              -L1516: [Start] end success.
+[2022-06-23 09:34:00:0869] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [7].
+[2022-06-23 09:34:00:0869] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[0] to [7].
+[2022-06-23 09:34:00:0871] | Info     | Manager.cpp              -L2582: [DepthMapConvert] m_pDepthBuffer new success.
+[2022-06-23 09:34:00:0871] | Info     | Manager.cpp              -L2603: [DepthMapConvert] m_pPointBuffer new success.
+[2022-06-23 09:34:00:0871] | Info     | Manager.cpp              -L1872: [CamGetDeviceInfo] device SN[00K14280159] ModelName[MV-EB435i] ip[2bdf00K14280159] SubNetmask[] gateway[] 
+[2022-06-23 09:34:00:0871] | Info     | Manager.cpp              -L2621: [DepthMapConvert] RGBDSensorCali camSerialNum(00K14280159).
+[2022-06-23 09:34:01:0154] | Info     | CameraModule.cpp         -L1095: [FileAccessRead] MV_CC_FileAccessRead success.
+[2022-06-23 09:34:01:0155] | Info     | DepthConvertVm.cpp       -L0076: [CDepthConvertVm::Init] begin.
+[2022-06-23 09:34:01:0155] | Info     | DepthConvertVm.cpp       -L0042: [CDepthConvertVm::DeInit] begin.
+[2022-06-23 09:34:01:0155] | Info     | DepthConvertVm.cpp       -L0068: [CDepthConvertVm::DeInit] end.
+[2022-06-23 09:34:01:0155] | Info     | DepthConvertVm.cpp       -L0106: [CDepthConvertVm::Init] m_stBinoMemTab[0].size[384], m_stBinoMemTab[1].size[0].
+[2022-06-23 09:34:01:0155] | Info     | DepthConvertVm.cpp       -L0158: [CDepthConvertVm::Init] MVB3D_BINOSTEREO_Create success.
+[2022-06-23 09:34:01:0155] | Info     | DepthConvertVm.cpp       -L0169: [CDepthConvertVm::Init] end.
+[2022-06-23 09:37:28:0621] | Info     | Manager.cpp              -L1655: ---------------------Start call Mv3dRgbd.dll start--------------------
+[2022-06-23 09:37:28:0621] | Info     | Manager.cpp              -L1659: Build Time[220615_14:20:53], SDK version[0x1000003].
+[2022-06-23 09:37:28:0621] | Info     | Manager.cpp              -L1661: Mv3dRgbd.dll path [C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbd.dll]
+[2022-06-23 09:37:28:0621] | Info     | Manager.cpp              -L1662: Current ExE path [E:\Mv3dRgbdSDK\Sample\Open3D\bin\win64\debug\Open3D.exe]
+[2022-06-23 09:37:28:0621] | Info     | Manager.cpp              -L1667: Config (C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini) exist .
+[2022-06-23 09:37:28:0621] | Info     | Manager.cpp              -L1674: DebugMode[0], nLogSize[100].
+[2022-06-23 09:37:28:0621] | Info     | Manager.cpp              -L1082: [Init] Begin.
+[2022-06-23 09:37:28:0623] | Info     | Manager.cpp              -L1115: [Init] end success.
+[2022-06-23 09:37:28:0623] | Info     | Manager.cpp              -L0465: [BindDevBySomeWay] start. chParm[00K14280159].
+[2022-06-23 09:37:28:0623] | Info     | CameraModule.cpp         -L0085: [Enum] begin.
+[2022-06-23 09:37:28:0754] | Info     | CameraModule.cpp         -L0102: [Enum] enum by gige sdk, get camera num:[1].
+[2022-06-23 09:37:28:0754] | Info     | CameraModule.cpp         -L0105: [Enum] end success.
+[2022-06-23 09:37:28:0754] | Info     | Manager.cpp              -L0569: [CompareBindParm] param bFind[1]  nFindNum[0] .
+[2022-06-23 09:37:28:0754] | Info     | Manager.cpp              -L1042: [CreateHandle] begin.
+[2022-06-23 09:37:28:0754] | Info     | CameraModule.cpp         -L0156: [CreateHandle] Get Gige Sdk version:(0x4000004).
+[2022-06-23 09:37:28:0814] | Info     | Manager.cpp              -L1075: [CreateHandle] end success.
+[2022-06-23 09:37:28:0815] | Info     | Manager.cpp              -L0494: [BindDevBySomeWay] end. chParm[00K14280159].
+[2022-06-23 09:37:28:0815] | Info     | Manager.cpp              -L0382: [BindDevice] bind device SN[00K14280159] Model[MV-EB435i] ip[2bdf00K14280159] SubNetmask[] gateway[].
+[2022-06-23 09:37:28:0815] | Info     | Manager.cpp              -L0933: [ConnectDevice] begin.
+[2022-06-23 09:37:29:0040] | Info     | Manager.cpp              -L0978: [ConnectDevice] Get BufferNode count from C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini\BufferNode, value[5].
+[2022-06-23 09:37:29:0040] | Info     | Manager.cpp              -L0986: [ConnectDevice] SetImageNodeNum value[5].
+[2022-06-23 09:37:29:0041] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(CameraWorkingMode) nValue(4).
+[2022-06-23 09:37:29:0042] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ImageMode) nValue(2).
+[2022-06-23 09:37:29:0043] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkModeActive) bValue(1).
+[2022-06-23 09:37:29:0043] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(24).
+[2022-06-23 09:37:29:0045] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-23 09:37:29:0045] | Error    | Manager.cpp              -L0898: m_nDeviceType:00000004.
+[2022-06-23 09:37:29:0045] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(19).
+[2022-06-23 09:37:29:0046] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-23 09:37:29:0046] | Info     | Manager.cpp              -L1035: [ConnectDevice] end success.
+[2022-06-23 09:37:29:0046] | Info     | Manager.cpp              -L1482: [Start] begin.
+[2022-06-23 09:37:29:0157] | Info     | Manager.cpp              -L1510: [Start] StartGrabbing success.
+[2022-06-23 09:37:29:0157] | Info     | Manager.cpp              -L1516: [Start] end success.
+[2022-06-23 09:37:29:0157] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [96].
+[2022-06-23 09:37:29:0157] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[0] to [96].
+[2022-06-23 09:37:29:0159] | Info     | Manager.cpp              -L2582: [DepthMapConvert] m_pDepthBuffer new success.
+[2022-06-23 09:37:29:0159] | Info     | Manager.cpp              -L2603: [DepthMapConvert] m_pPointBuffer new success.
+[2022-06-23 09:37:29:0159] | Info     | Manager.cpp              -L1872: [CamGetDeviceInfo] device SN[00K14280159] ModelName[MV-EB435i] ip[2bdf00K14280159] SubNetmask[] gateway[] 
+[2022-06-23 09:37:29:0159] | Info     | Manager.cpp              -L2621: [DepthMapConvert] RGBDSensorCali camSerialNum(00K14280159).
+[2022-06-23 09:37:29:0408] | Info     | CameraModule.cpp         -L1095: [FileAccessRead] MV_CC_FileAccessRead success.
+[2022-06-23 09:37:29:0408] | Info     | DepthConvertVm.cpp       -L0076: [CDepthConvertVm::Init] begin.
+[2022-06-23 09:37:29:0408] | Info     | DepthConvertVm.cpp       -L0042: [CDepthConvertVm::DeInit] begin.
+[2022-06-23 09:37:29:0408] | Info     | DepthConvertVm.cpp       -L0068: [CDepthConvertVm::DeInit] end.
+[2022-06-23 09:37:29:0408] | Info     | DepthConvertVm.cpp       -L0106: [CDepthConvertVm::Init] m_stBinoMemTab[0].size[384], m_stBinoMemTab[1].size[0].
+[2022-06-23 09:37:29:0408] | Info     | DepthConvertVm.cpp       -L0158: [CDepthConvertVm::Init] MVB3D_BINOSTEREO_Create success.
+[2022-06-23 09:37:29:0408] | Info     | DepthConvertVm.cpp       -L0169: [CDepthConvertVm::Init] end.
+[2022-06-23 09:40:13:0389] | Info     | Manager.cpp              -L1655: ---------------------Start call Mv3dRgbd.dll start--------------------
+[2022-06-23 09:40:13:0390] | Info     | Manager.cpp              -L1659: Build Time[220615_14:20:53], SDK version[0x1000003].
+[2022-06-23 09:40:13:0390] | Info     | Manager.cpp              -L1661: Mv3dRgbd.dll path [C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbd.dll]
+[2022-06-23 09:40:13:0390] | Info     | Manager.cpp              -L1662: Current ExE path [E:\Mv3dRgbdSDK\Sample\Open3D\bin\win64\debug\Open3D.exe]
+[2022-06-23 09:40:13:0390] | Info     | Manager.cpp              -L1667: Config (C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini) exist .
+[2022-06-23 09:40:13:0390] | Info     | Manager.cpp              -L1674: DebugMode[0], nLogSize[100].
+[2022-06-23 09:40:13:0390] | Info     | Manager.cpp              -L1082: [Init] Begin.
+[2022-06-23 09:40:13:0390] | Info     | Manager.cpp              -L1115: [Init] end success.
+[2022-06-23 09:40:13:0390] | Info     | Manager.cpp              -L0465: [BindDevBySomeWay] start. chParm[00K14280159].
+[2022-06-23 09:40:13:0390] | Info     | CameraModule.cpp         -L0085: [Enum] begin.
+[2022-06-23 09:40:13:0522] | Info     | CameraModule.cpp         -L0102: [Enum] enum by gige sdk, get camera num:[1].
+[2022-06-23 09:40:13:0522] | Info     | CameraModule.cpp         -L0105: [Enum] end success.
+[2022-06-23 09:40:13:0523] | Info     | Manager.cpp              -L0569: [CompareBindParm] param bFind[1]  nFindNum[0] .
+[2022-06-23 09:40:13:0523] | Info     | Manager.cpp              -L1042: [CreateHandle] begin.
+[2022-06-23 09:40:13:0523] | Info     | CameraModule.cpp         -L0156: [CreateHandle] Get Gige Sdk version:(0x4000004).
+[2022-06-23 09:40:13:0576] | Info     | Manager.cpp              -L1075: [CreateHandle] end success.
+[2022-06-23 09:40:13:0576] | Info     | Manager.cpp              -L0494: [BindDevBySomeWay] end. chParm[00K14280159].
+[2022-06-23 09:40:13:0576] | Info     | Manager.cpp              -L0382: [BindDevice] bind device SN[00K14280159] Model[MV-EB435i] ip[2bdf00K14280159] SubNetmask[] gateway[].
+[2022-06-23 09:40:13:0576] | Info     | Manager.cpp              -L0933: [ConnectDevice] begin.
+[2022-06-23 09:40:13:0818] | Info     | Manager.cpp              -L0978: [ConnectDevice] Get BufferNode count from C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini\BufferNode, value[5].
+[2022-06-23 09:40:13:0818] | Info     | Manager.cpp              -L0986: [ConnectDevice] SetImageNodeNum value[5].
+[2022-06-23 09:40:13:0819] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(CameraWorkingMode) nValue(4).
+[2022-06-23 09:40:13:0820] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ImageMode) nValue(2).
+[2022-06-23 09:40:13:0822] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkModeActive) bValue(1).
+[2022-06-23 09:40:13:0822] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(24).
+[2022-06-23 09:40:13:0823] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-23 09:40:13:0823] | Error    | Manager.cpp              -L0898: m_nDeviceType:00000004.
+[2022-06-23 09:40:13:0824] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(19).
+[2022-06-23 09:40:13:0825] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-23 09:40:13:0825] | Info     | Manager.cpp              -L1035: [ConnectDevice] end success.
+[2022-06-23 09:40:13:0825] | Info     | Manager.cpp              -L1482: [Start] begin.
+[2022-06-23 09:40:13:0940] | Info     | Manager.cpp              -L1510: [Start] StartGrabbing success.
+[2022-06-23 09:40:13:0940] | Info     | Manager.cpp              -L1516: [Start] end success.
+[2022-06-23 09:40:13:0940] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [575].
+[2022-06-23 09:40:13:0940] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[0] to [575].
+[2022-06-23 09:40:13:0942] | Info     | Manager.cpp              -L2582: [DepthMapConvert] m_pDepthBuffer new success.
+[2022-06-23 09:40:13:0942] | Info     | Manager.cpp              -L2603: [DepthMapConvert] m_pPointBuffer new success.
+[2022-06-23 09:40:13:0942] | Info     | Manager.cpp              -L1872: [CamGetDeviceInfo] device SN[00K14280159] ModelName[MV-EB435i] ip[2bdf00K14280159] SubNetmask[] gateway[] 
+[2022-06-23 09:40:13:0942] | Info     | Manager.cpp              -L2621: [DepthMapConvert] RGBDSensorCali camSerialNum(00K14280159).
+[2022-06-23 09:40:14:0193] | Info     | CameraModule.cpp         -L1095: [FileAccessRead] MV_CC_FileAccessRead success.
+[2022-06-23 09:40:14:0194] | Info     | DepthConvertVm.cpp       -L0076: [CDepthConvertVm::Init] begin.
+[2022-06-23 09:40:14:0194] | Info     | DepthConvertVm.cpp       -L0042: [CDepthConvertVm::DeInit] begin.
+[2022-06-23 09:40:14:0194] | Info     | DepthConvertVm.cpp       -L0068: [CDepthConvertVm::DeInit] end.
+[2022-06-23 09:40:14:0194] | Info     | DepthConvertVm.cpp       -L0106: [CDepthConvertVm::Init] m_stBinoMemTab[0].size[384], m_stBinoMemTab[1].size[0].
+[2022-06-23 09:40:14:0194] | Info     | DepthConvertVm.cpp       -L0158: [CDepthConvertVm::Init] MVB3D_BINOSTEREO_Create success.
+[2022-06-23 09:40:14:0194] | Info     | DepthConvertVm.cpp       -L0169: [CDepthConvertVm::Init] end.
+[2022-06-23 09:48:07:0780] | Info     | Manager.cpp              -L1655: ---------------------Start call Mv3dRgbd.dll start--------------------
+[2022-06-23 09:48:07:0781] | Info     | Manager.cpp              -L1659: Build Time[220615_14:20:53], SDK version[0x1000003].
+[2022-06-23 09:48:07:0781] | Info     | Manager.cpp              -L1661: Mv3dRgbd.dll path [C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbd.dll]
+[2022-06-23 09:48:07:0781] | Info     | Manager.cpp              -L1662: Current ExE path [E:\Mv3dRgbdSDK\Sample\Open3D\bin\win64\debug\Open3D.exe]
+[2022-06-23 09:48:07:0781] | Info     | Manager.cpp              -L1667: Config (C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini) exist .
+[2022-06-23 09:48:07:0781] | Info     | Manager.cpp              -L1674: DebugMode[0], nLogSize[100].
+[2022-06-23 09:48:07:0781] | Info     | Manager.cpp              -L1082: [Init] Begin.
+[2022-06-23 09:48:07:0782] | Info     | Manager.cpp              -L1115: [Init] end success.
+[2022-06-23 09:48:07:0783] | Info     | Manager.cpp              -L0465: [BindDevBySomeWay] start. chParm[00K14280159].
+[2022-06-23 09:48:07:0783] | Info     | CameraModule.cpp         -L0085: [Enum] begin.
+[2022-06-23 09:48:07:0915] | Info     | CameraModule.cpp         -L0102: [Enum] enum by gige sdk, get camera num:[1].
+[2022-06-23 09:48:07:0915] | Info     | CameraModule.cpp         -L0105: [Enum] end success.
+[2022-06-23 09:48:07:0915] | Info     | Manager.cpp              -L0569: [CompareBindParm] param bFind[1]  nFindNum[0] .
+[2022-06-23 09:48:07:0915] | Info     | Manager.cpp              -L1042: [CreateHandle] begin.
+[2022-06-23 09:48:07:0915] | Info     | CameraModule.cpp         -L0156: [CreateHandle] Get Gige Sdk version:(0x4000004).
+[2022-06-23 09:48:07:0966] | Info     | Manager.cpp              -L1075: [CreateHandle] end success.
+[2022-06-23 09:48:07:0966] | Info     | Manager.cpp              -L0494: [BindDevBySomeWay] end. chParm[00K14280159].
+[2022-06-23 09:48:07:0966] | Info     | Manager.cpp              -L0382: [BindDevice] bind device SN[00K14280159] Model[MV-EB435i] ip[2bdf00K14280159] SubNetmask[] gateway[].
+[2022-06-23 09:48:07:0967] | Info     | Manager.cpp              -L0933: [ConnectDevice] begin.
+[2022-06-23 09:48:08:0161] | Info     | Manager.cpp              -L0978: [ConnectDevice] Get BufferNode count from C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini\BufferNode, value[5].
+[2022-06-23 09:48:08:0161] | Info     | Manager.cpp              -L0986: [ConnectDevice] SetImageNodeNum value[5].
+[2022-06-23 09:48:08:0163] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(CameraWorkingMode) nValue(4).
+[2022-06-23 09:48:08:0164] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ImageMode) nValue(2).
+[2022-06-23 09:48:08:0167] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkModeActive) bValue(1).
+[2022-06-23 09:48:08:0167] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(24).
+[2022-06-23 09:48:08:0169] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-23 09:48:08:0169] | Error    | Manager.cpp              -L0898: m_nDeviceType:00000004.
+[2022-06-23 09:48:08:0169] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(19).
+[2022-06-23 09:48:08:0171] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-23 09:48:08:0171] | Info     | Manager.cpp              -L1035: [ConnectDevice] end success.
+[2022-06-23 09:48:08:0171] | Info     | Manager.cpp              -L1482: [Start] begin.
+[2022-06-23 09:48:13:0478] | Info     | Manager.cpp              -L1655: ---------------------Start call Mv3dRgbd.dll start--------------------
+[2022-06-23 09:48:13:0479] | Info     | Manager.cpp              -L1659: Build Time[220615_14:20:53], SDK version[0x1000003].
+[2022-06-23 09:48:13:0479] | Info     | Manager.cpp              -L1661: Mv3dRgbd.dll path [C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbd.dll]
+[2022-06-23 09:48:13:0479] | Info     | Manager.cpp              -L1662: Current ExE path [E:\Mv3dRgbdSDK\Sample\Open3D\bin\win64\debug\Open3D.exe]
+[2022-06-23 09:48:13:0479] | Info     | Manager.cpp              -L1667: Config (C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini) exist .
+[2022-06-23 09:48:13:0479] | Info     | Manager.cpp              -L1674: DebugMode[0], nLogSize[100].
+[2022-06-23 09:48:13:0479] | Info     | Manager.cpp              -L1082: [Init] Begin.
+[2022-06-23 09:48:13:0480] | Info     | Manager.cpp              -L1115: [Init] end success.
+[2022-06-23 09:48:13:0480] | Info     | Manager.cpp              -L0465: [BindDevBySomeWay] start. chParm[00K14280159].
+[2022-06-23 09:48:13:0480] | Info     | CameraModule.cpp         -L0085: [Enum] begin.
+[2022-06-23 09:48:13:0613] | Info     | CameraModule.cpp         -L0102: [Enum] enum by gige sdk, get camera num:[1].
+[2022-06-23 09:48:13:0613] | Info     | CameraModule.cpp         -L0105: [Enum] end success.
+[2022-06-23 09:48:13:0613] | Info     | Manager.cpp              -L0569: [CompareBindParm] param bFind[1]  nFindNum[0] .
+[2022-06-23 09:48:13:0613] | Info     | Manager.cpp              -L1042: [CreateHandle] begin.
+[2022-06-23 09:48:13:0613] | Info     | CameraModule.cpp         -L0156: [CreateHandle] Get Gige Sdk version:(0x4000004).
+[2022-06-23 09:48:13:0663] | Info     | Manager.cpp              -L1075: [CreateHandle] end success.
+[2022-06-23 09:48:13:0663] | Info     | Manager.cpp              -L0494: [BindDevBySomeWay] end. chParm[00K14280159].
+[2022-06-23 09:48:13:0663] | Info     | Manager.cpp              -L0382: [BindDevice] bind device SN[00K14280159] Model[MV-EB435i] ip[2bdf00K14280159] SubNetmask[] gateway[].
+[2022-06-23 09:48:13:0663] | Info     | Manager.cpp              -L0933: [ConnectDevice] begin.
+[2022-06-23 09:48:13:0912] | Info     | Manager.cpp              -L0978: [ConnectDevice] Get BufferNode count from C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini\BufferNode, value[5].
+[2022-06-23 09:48:13:0912] | Info     | Manager.cpp              -L0986: [ConnectDevice] SetImageNodeNum value[5].
+[2022-06-23 09:48:13:0913] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(CameraWorkingMode) nValue(4).
+[2022-06-23 09:48:13:0916] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ImageMode) nValue(2).
+[2022-06-23 09:48:13:0918] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkModeActive) bValue(1).
+[2022-06-23 09:48:13:0918] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(24).
+[2022-06-23 09:48:13:0921] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-23 09:48:13:0921] | Error    | Manager.cpp              -L0898: m_nDeviceType:00000004.
+[2022-06-23 09:48:13:0921] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(19).
+[2022-06-23 09:48:13:0923] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-23 09:48:13:0923] | Info     | Manager.cpp              -L1035: [ConnectDevice] end success.
+[2022-06-23 09:48:13:0924] | Info     | Manager.cpp              -L1482: [Start] begin.
+[2022-06-23 09:48:14:0045] | Info     | Manager.cpp              -L1510: [Start] StartGrabbing success.
+[2022-06-23 09:48:14:0045] | Info     | Manager.cpp              -L1516: [Start] end success.
+[2022-06-23 09:48:14:0045] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [7].
+[2022-06-23 09:48:14:0045] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[0] to [7].
+[2022-06-23 09:48:14:0047] | Info     | Manager.cpp              -L2582: [DepthMapConvert] m_pDepthBuffer new success.
+[2022-06-23 09:48:14:0047] | Info     | Manager.cpp              -L2603: [DepthMapConvert] m_pPointBuffer new success.
+[2022-06-23 09:48:14:0047] | Info     | Manager.cpp              -L1872: [CamGetDeviceInfo] device SN[00K14280159] ModelName[MV-EB435i] ip[2bdf00K14280159] SubNetmask[] gateway[] 
+[2022-06-23 09:48:14:0047] | Info     | Manager.cpp              -L2621: [DepthMapConvert] RGBDSensorCali camSerialNum(00K14280159).
+[2022-06-23 09:48:14:0365] | Info     | CameraModule.cpp         -L1095: [FileAccessRead] MV_CC_FileAccessRead success.
+[2022-06-23 09:48:14:0365] | Info     | DepthConvertVm.cpp       -L0076: [CDepthConvertVm::Init] begin.
+[2022-06-23 09:48:14:0365] | Info     | DepthConvertVm.cpp       -L0042: [CDepthConvertVm::DeInit] begin.
+[2022-06-23 09:48:14:0365] | Info     | DepthConvertVm.cpp       -L0068: [CDepthConvertVm::DeInit] end.
+[2022-06-23 09:48:14:0365] | Info     | DepthConvertVm.cpp       -L0106: [CDepthConvertVm::Init] m_stBinoMemTab[0].size[384], m_stBinoMemTab[1].size[0].
+[2022-06-23 09:48:14:0365] | Info     | DepthConvertVm.cpp       -L0158: [CDepthConvertVm::Init] MVB3D_BINOSTEREO_Create success.
+[2022-06-23 09:48:14:0365] | Info     | DepthConvertVm.cpp       -L0169: [CDepthConvertVm::Init] end.
+[2022-06-23 09:48:19:0919] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [49].
+[2022-06-23 09:48:19:0919] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[7] to [49].
+[2022-06-23 09:48:28:0110] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [106].
+[2022-06-23 09:48:28:0110] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[49] to [106].
+[2022-06-23 09:48:36:0417] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [165].
+[2022-06-23 09:48:36:0417] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[106] to [165].
+[2022-06-23 09:48:45:0212] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [227].
+[2022-06-23 09:48:45:0212] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[165] to [227].
+[2022-06-23 09:48:54:0147] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [290].
+[2022-06-23 09:48:54:0147] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[227] to [290].
+[2022-06-23 09:49:03:0079] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [353].
+[2022-06-23 09:49:03:0079] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[290] to [353].
+[2022-06-23 09:49:11:0956] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [415].
+[2022-06-23 09:49:11:0956] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[353] to [415].
+[2022-06-23 09:49:20:0910] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [478].
+[2022-06-23 09:49:20:0910] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[415] to [478].
+[2022-06-23 09:49:29:0987] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [542].
+[2022-06-23 09:49:29:0987] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[478] to [542].
+[2022-06-23 09:49:38:0725] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [604].
+[2022-06-23 09:49:38:0725] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[542] to [604].
+[2022-06-23 09:49:47:0795] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [666].
+[2022-06-23 09:49:47:0795] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[604] to [666].
+[2022-06-23 09:49:56:0939] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [731].
+[2022-06-23 09:49:56:0939] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[666] to [731].
+[2022-06-23 09:50:05:0505] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [791].
+[2022-06-23 09:50:05:0505] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[731] to [791].
+[2022-06-23 09:50:14:0012] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [851].
+[2022-06-23 09:50:14:0012] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[791] to [851].
+[2022-06-23 09:50:22:0430] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [911].
+[2022-06-23 09:50:22:0430] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[851] to [911].
+[2022-06-23 09:50:31:0041] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [971].
+[2022-06-23 09:50:31:0041] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[911] to [971].
+[2022-06-23 10:02:50:0494] | Info     | Manager.cpp              -L1655: ---------------------Start call Mv3dRgbd.dll start--------------------
+[2022-06-23 10:02:50:0494] | Info     | Manager.cpp              -L1659: Build Time[220615_14:20:53], SDK version[0x1000003].
+[2022-06-23 10:02:50:0494] | Info     | Manager.cpp              -L1661: Mv3dRgbd.dll path [C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbd.dll]
+[2022-06-23 10:02:50:0494] | Info     | Manager.cpp              -L1662: Current ExE path [E:\Mv3dRgbdSDK\Sample\Open3D\bin\win64\debug\Open3D.exe]
+[2022-06-23 10:02:50:0494] | Info     | Manager.cpp              -L1667: Config (C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini) exist .
+[2022-06-23 10:02:50:0494] | Info     | Manager.cpp              -L1674: DebugMode[0], nLogSize[100].
+[2022-06-23 10:02:50:0494] | Info     | Manager.cpp              -L1082: [Init] Begin.
+[2022-06-23 10:02:50:0495] | Info     | Manager.cpp              -L1115: [Init] end success.
+[2022-06-23 10:02:50:0495] | Info     | Manager.cpp              -L0465: [BindDevBySomeWay] start. chParm[00K14280159].
+[2022-06-23 10:02:50:0495] | Info     | CameraModule.cpp         -L0085: [Enum] begin.
+[2022-06-23 10:02:50:0624] | Info     | CameraModule.cpp         -L0102: [Enum] enum by gige sdk, get camera num:[1].
+[2022-06-23 10:02:50:0624] | Info     | CameraModule.cpp         -L0105: [Enum] end success.
+[2022-06-23 10:02:50:0624] | Info     | Manager.cpp              -L0569: [CompareBindParm] param bFind[1]  nFindNum[0] .
+[2022-06-23 10:02:50:0624] | Info     | Manager.cpp              -L1042: [CreateHandle] begin.
+[2022-06-23 10:02:50:0624] | Info     | CameraModule.cpp         -L0156: [CreateHandle] Get Gige Sdk version:(0x4000004).
+[2022-06-23 10:02:50:0678] | Info     | Manager.cpp              -L1075: [CreateHandle] end success.
+[2022-06-23 10:02:50:0678] | Info     | Manager.cpp              -L0494: [BindDevBySomeWay] end. chParm[00K14280159].
+[2022-06-23 10:02:50:0678] | Info     | Manager.cpp              -L0382: [BindDevice] bind device SN[00K14280159] Model[MV-EB435i] ip[2bdf00K14280159] SubNetmask[] gateway[].
+[2022-06-23 10:02:50:0678] | Info     | Manager.cpp              -L0933: [ConnectDevice] begin.
+[2022-06-23 10:02:50:0895] | Info     | Manager.cpp              -L0978: [ConnectDevice] Get BufferNode count from C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini\BufferNode, value[5].
+[2022-06-23 10:02:50:0895] | Info     | Manager.cpp              -L0986: [ConnectDevice] SetImageNodeNum value[5].
+[2022-06-23 10:02:50:0896] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(CameraWorkingMode) nValue(4).
+[2022-06-23 10:02:50:0897] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ImageMode) nValue(2).
+[2022-06-23 10:02:50:0899] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkModeActive) bValue(1).
+[2022-06-23 10:02:50:0899] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(24).
+[2022-06-23 10:02:50:0901] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-23 10:02:50:0901] | Error    | Manager.cpp              -L0898: m_nDeviceType:00000004.
+[2022-06-23 10:02:50:0902] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(19).
+[2022-06-23 10:02:50:0904] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-23 10:02:50:0904] | Info     | Manager.cpp              -L1035: [ConnectDevice] end success.
+[2022-06-23 10:02:50:0904] | Info     | Manager.cpp              -L1482: [Start] begin.
+[2022-06-23 10:02:50:0990] | Info     | Manager.cpp              -L1510: [Start] StartGrabbing success.
+[2022-06-23 10:02:50:0990] | Info     | Manager.cpp              -L1516: [Start] end success.
+[2022-06-23 10:02:51:0129] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [1].
+[2022-06-23 10:02:51:0131] | Info     | Manager.cpp              -L2582: [DepthMapConvert] m_pDepthBuffer new success.
+[2022-06-23 10:02:51:0131] | Info     | Manager.cpp              -L2603: [DepthMapConvert] m_pPointBuffer new success.
+[2022-06-23 10:02:51:0131] | Info     | Manager.cpp              -L1872: [CamGetDeviceInfo] device SN[00K14280159] ModelName[MV-EB435i] ip[2bdf00K14280159] SubNetmask[] gateway[] 
+[2022-06-23 10:02:51:0131] | Info     | Manager.cpp              -L2621: [DepthMapConvert] RGBDSensorCali camSerialNum(00K14280159).
+[2022-06-23 10:02:51:0290] | Info     | CameraModule.cpp         -L1095: [FileAccessRead] MV_CC_FileAccessRead success.
+[2022-06-23 10:02:51:0290] | Info     | DepthConvertVm.cpp       -L0076: [CDepthConvertVm::Init] begin.
+[2022-06-23 10:02:51:0290] | Info     | DepthConvertVm.cpp       -L0042: [CDepthConvertVm::DeInit] begin.
+[2022-06-23 10:02:51:0290] | Info     | DepthConvertVm.cpp       -L0068: [CDepthConvertVm::DeInit] end.
+[2022-06-23 10:02:51:0290] | Info     | DepthConvertVm.cpp       -L0106: [CDepthConvertVm::Init] m_stBinoMemTab[0].size[384], m_stBinoMemTab[1].size[0].
+[2022-06-23 10:02:51:0290] | Info     | DepthConvertVm.cpp       -L0158: [CDepthConvertVm::Init] MVB3D_BINOSTEREO_Create success.
+[2022-06-23 10:02:51:0290] | Info     | DepthConvertVm.cpp       -L0169: [CDepthConvertVm::Init] end.
+[2022-06-23 10:02:58:0733] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [50].
+[2022-06-23 10:02:58:0733] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[1] to [50].
+[2022-06-23 10:03:05:0835] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [100].
+[2022-06-23 10:03:05:0835] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[50] to [100].
+[2022-06-23 10:03:12:0542] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [147].
+[2022-06-23 10:03:12:0542] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[100] to [147].
+[2022-06-23 10:03:18:0726] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [191].
+[2022-06-23 10:03:18:0726] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[147] to [191].
+[2022-06-23 10:03:24:0499] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [232].
+[2022-06-23 10:03:24:0499] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[191] to [232].
+[2022-06-23 10:03:30:0166] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [272].
+[2022-06-23 10:03:30:0166] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[232] to [272].
+[2022-06-23 10:03:35:0632] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [310].
+[2022-06-23 10:03:35:0632] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[272] to [310].
+[2022-06-23 10:03:40:0914] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [347].
+[2022-06-23 10:03:40:0914] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[310] to [347].
+[2022-06-23 10:03:46:0234] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [385].
+[2022-06-23 10:03:46:0234] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[347] to [385].
+[2022-06-23 10:03:51:0482] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [421].
+[2022-06-23 10:03:51:0482] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[385] to [421].
+[2022-06-23 10:03:56:0461] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [456].
+[2022-06-23 10:03:56:0461] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[421] to [456].
+[2022-06-23 10:22:58:0394] | Info     | Manager.cpp              -L1655: ---------------------Start call Mv3dRgbd.dll start--------------------
+[2022-06-23 10:22:58:0394] | Info     | Manager.cpp              -L1659: Build Time[220615_14:20:53], SDK version[0x1000003].
+[2022-06-23 10:22:58:0394] | Info     | Manager.cpp              -L1661: Mv3dRgbd.dll path [C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbd.dll]
+[2022-06-23 10:22:58:0394] | Info     | Manager.cpp              -L1662: Current ExE path [E:\Mv3dRgbdSDK\Sample\Open3D\bin\win64\debug\Open3D.exe]
+[2022-06-23 10:22:58:0394] | Info     | Manager.cpp              -L1667: Config (C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini) exist .
+[2022-06-23 10:22:58:0394] | Info     | Manager.cpp              -L1674: DebugMode[0], nLogSize[100].
+[2022-06-23 10:22:58:0394] | Info     | Manager.cpp              -L1082: [Init] Begin.
+[2022-06-23 10:22:58:0395] | Info     | Manager.cpp              -L1115: [Init] end success.
+[2022-06-23 10:22:58:0395] | Info     | Manager.cpp              -L0465: [BindDevBySomeWay] start. chParm[00K14280159].
+[2022-06-23 10:22:58:0395] | Info     | CameraModule.cpp         -L0085: [Enum] begin.
+[2022-06-23 10:22:58:0527] | Info     | CameraModule.cpp         -L0102: [Enum] enum by gige sdk, get camera num:[1].
+[2022-06-23 10:22:58:0527] | Info     | CameraModule.cpp         -L0105: [Enum] end success.
+[2022-06-23 10:22:58:0527] | Info     | Manager.cpp              -L0569: [CompareBindParm] param bFind[1]  nFindNum[0] .
+[2022-06-23 10:22:58:0527] | Info     | Manager.cpp              -L1042: [CreateHandle] begin.
+[2022-06-23 10:22:58:0527] | Info     | CameraModule.cpp         -L0156: [CreateHandle] Get Gige Sdk version:(0x4000004).
+[2022-06-23 10:22:58:0583] | Info     | Manager.cpp              -L1075: [CreateHandle] end success.
+[2022-06-23 10:22:58:0583] | Info     | Manager.cpp              -L0494: [BindDevBySomeWay] end. chParm[00K14280159].
+[2022-06-23 10:22:58:0583] | Info     | Manager.cpp              -L0382: [BindDevice] bind device SN[00K14280159] Model[MV-EB435i] ip[2bdf00K14280159] SubNetmask[] gateway[].
+[2022-06-23 10:22:58:0583] | Info     | Manager.cpp              -L0933: [ConnectDevice] begin.
+[2022-06-23 10:22:58:0794] | Info     | Manager.cpp              -L0978: [ConnectDevice] Get BufferNode count from C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini\BufferNode, value[5].
+[2022-06-23 10:22:58:0794] | Info     | Manager.cpp              -L0986: [ConnectDevice] SetImageNodeNum value[5].
+[2022-06-23 10:22:58:0796] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(CameraWorkingMode) nValue(4).
+[2022-06-23 10:22:58:0797] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ImageMode) nValue(2).
+[2022-06-23 10:22:58:0800] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkModeActive) bValue(1).
+[2022-06-23 10:22:58:0800] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(24).
+[2022-06-23 10:22:58:0802] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-23 10:22:58:0802] | Error    | Manager.cpp              -L0898: m_nDeviceType:00000004.
+[2022-06-23 10:22:58:0802] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(19).
+[2022-06-23 10:22:58:0804] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-23 10:22:58:0804] | Info     | Manager.cpp              -L1035: [ConnectDevice] end success.
+[2022-06-23 10:22:58:0804] | Info     | Manager.cpp              -L1482: [Start] begin.
+[2022-06-23 10:23:04:0194] | Info     | Manager.cpp              -L1655: ---------------------Start call Mv3dRgbd.dll start--------------------
+[2022-06-23 10:23:04:0194] | Info     | Manager.cpp              -L1659: Build Time[220615_14:20:53], SDK version[0x1000003].
+[2022-06-23 10:23:04:0194] | Info     | Manager.cpp              -L1661: Mv3dRgbd.dll path [C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbd.dll]
+[2022-06-23 10:23:04:0194] | Info     | Manager.cpp              -L1662: Current ExE path [E:\Mv3dRgbdSDK\Sample\Open3D\bin\win64\debug\Open3D.exe]
+[2022-06-23 10:23:04:0194] | Info     | Manager.cpp              -L1667: Config (C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini) exist .
+[2022-06-23 10:23:04:0194] | Info     | Manager.cpp              -L1674: DebugMode[0], nLogSize[100].
+[2022-06-23 10:23:04:0194] | Info     | Manager.cpp              -L1082: [Init] Begin.
+[2022-06-23 10:23:04:0195] | Info     | Manager.cpp              -L1115: [Init] end success.
+[2022-06-23 10:23:04:0195] | Info     | Manager.cpp              -L0465: [BindDevBySomeWay] start. chParm[00K14280159].
+[2022-06-23 10:23:04:0195] | Info     | CameraModule.cpp         -L0085: [Enum] begin.
+[2022-06-23 10:23:04:0327] | Info     | CameraModule.cpp         -L0102: [Enum] enum by gige sdk, get camera num:[1].
+[2022-06-23 10:23:04:0327] | Info     | CameraModule.cpp         -L0105: [Enum] end success.
+[2022-06-23 10:23:04:0327] | Info     | Manager.cpp              -L0569: [CompareBindParm] param bFind[1]  nFindNum[0] .
+[2022-06-23 10:23:04:0327] | Info     | Manager.cpp              -L1042: [CreateHandle] begin.
+[2022-06-23 10:23:04:0327] | Info     | CameraModule.cpp         -L0156: [CreateHandle] Get Gige Sdk version:(0x4000004).
+[2022-06-23 10:23:04:0382] | Info     | Manager.cpp              -L1075: [CreateHandle] end success.
+[2022-06-23 10:23:04:0382] | Info     | Manager.cpp              -L0494: [BindDevBySomeWay] end. chParm[00K14280159].
+[2022-06-23 10:23:04:0382] | Info     | Manager.cpp              -L0382: [BindDevice] bind device SN[00K14280159] Model[MV-EB435i] ip[2bdf00K14280159] SubNetmask[] gateway[].
+[2022-06-23 10:23:04:0382] | Info     | Manager.cpp              -L0933: [ConnectDevice] begin.
+[2022-06-23 10:23:04:0644] | Info     | Manager.cpp              -L0978: [ConnectDevice] Get BufferNode count from C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini\BufferNode, value[5].
+[2022-06-23 10:23:04:0644] | Info     | Manager.cpp              -L0986: [ConnectDevice] SetImageNodeNum value[5].
+[2022-06-23 10:23:04:0645] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(CameraWorkingMode) nValue(4).
+[2022-06-23 10:23:04:0648] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ImageMode) nValue(2).
+[2022-06-23 10:23:04:0650] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkModeActive) bValue(1).
+[2022-06-23 10:23:04:0650] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(24).
+[2022-06-23 10:23:04:0653] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-23 10:23:04:0653] | Error    | Manager.cpp              -L0898: m_nDeviceType:00000004.
+[2022-06-23 10:23:04:0653] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(19).
+[2022-06-23 10:23:04:0656] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-23 10:23:04:0656] | Info     | Manager.cpp              -L1035: [ConnectDevice] end success.
+[2022-06-23 10:23:04:0656] | Info     | Manager.cpp              -L1482: [Start] begin.
+[2022-06-23 10:23:04:0778] | Info     | Manager.cpp              -L1510: [Start] StartGrabbing success.
+[2022-06-23 10:23:04:0778] | Info     | Manager.cpp              -L1516: [Start] end success.
+[2022-06-23 10:23:04:0778] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [7].
+[2022-06-23 10:23:04:0778] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[0] to [7].
+[2022-06-23 10:23:04:0779] | Info     | Manager.cpp              -L2582: [DepthMapConvert] m_pDepthBuffer new success.
+[2022-06-23 10:23:04:0779] | Info     | Manager.cpp              -L2603: [DepthMapConvert] m_pPointBuffer new success.
+[2022-06-23 10:23:04:0779] | Info     | Manager.cpp              -L1872: [CamGetDeviceInfo] device SN[00K14280159] ModelName[MV-EB435i] ip[2bdf00K14280159] SubNetmask[] gateway[] 
+[2022-06-23 10:23:04:0779] | Info     | Manager.cpp              -L2621: [DepthMapConvert] RGBDSensorCali camSerialNum(00K14280159).
+[2022-06-23 10:23:05:0070] | Info     | CameraModule.cpp         -L1095: [FileAccessRead] MV_CC_FileAccessRead success.
+[2022-06-23 10:23:05:0070] | Info     | DepthConvertVm.cpp       -L0076: [CDepthConvertVm::Init] begin.
+[2022-06-23 10:23:05:0070] | Info     | DepthConvertVm.cpp       -L0042: [CDepthConvertVm::DeInit] begin.
+[2022-06-23 10:23:05:0070] | Info     | DepthConvertVm.cpp       -L0068: [CDepthConvertVm::DeInit] end.
+[2022-06-23 10:23:05:0070] | Info     | DepthConvertVm.cpp       -L0106: [CDepthConvertVm::Init] m_stBinoMemTab[0].size[384], m_stBinoMemTab[1].size[0].
+[2022-06-23 10:23:05:0070] | Info     | DepthConvertVm.cpp       -L0158: [CDepthConvertVm::Init] MVB3D_BINOSTEREO_Create success.
+[2022-06-23 10:23:05:0070] | Info     | DepthConvertVm.cpp       -L0169: [CDepthConvertVm::Init] end.
+[2022-06-23 10:23:10:0294] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [46].
+[2022-06-23 10:23:10:0294] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[7] to [46].
+[2022-06-23 10:23:16:0700] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [91].
+[2022-06-23 10:23:16:0700] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[46] to [91].
+[2022-06-23 10:23:21:0096] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [120].
+[2022-06-23 10:23:21:0096] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[91] to [120].
+[2022-06-23 10:23:25:0022] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [147].
+[2022-06-23 10:23:25:0022] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[120] to [147].
+[2022-06-23 10:23:28:0527] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [170].
+[2022-06-23 10:23:28:0527] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[147] to [170].
+[2022-06-23 10:23:31:0627] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [191].
+[2022-06-23 10:23:31:0627] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[170] to [191].
+[2022-06-23 10:23:38:0647] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [241].
+[2022-06-23 10:23:38:0647] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[191] to [241].
+[2022-06-23 10:23:48:0284] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [308].
+[2022-06-23 10:23:48:0284] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[241] to [308].
+[2022-06-23 10:23:57:0295] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [372].
+[2022-06-23 10:23:57:0295] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[308] to [372].
+[2022-06-23 10:24:06:0812] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [439].
+[2022-06-23 10:24:06:0812] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[372] to [439].
+[2022-06-23 15:55:05:0162] | Info     | Manager.cpp              -L1655: ---------------------Start call Mv3dRgbd.dll start--------------------
+[2022-06-23 15:55:05:0162] | Info     | Manager.cpp              -L1659: Build Time[220615_14:20:53], SDK version[0x1000003].
+[2022-06-23 15:55:05:0162] | Info     | Manager.cpp              -L1661: Mv3dRgbd.dll path [C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbd.dll]
+[2022-06-23 15:55:05:0162] | Info     | Manager.cpp              -L1662: Current ExE path [E:\Mv3dRgbdSDK\Sample\Open3D\bin\win64\debug\Open3D.exe]
+[2022-06-23 15:55:05:0162] | Info     | Manager.cpp              -L1667: Config (C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini) exist .
+[2022-06-23 15:55:05:0162] | Info     | Manager.cpp              -L1674: DebugMode[0], nLogSize[100].
+[2022-06-23 15:55:05:0162] | Info     | Manager.cpp              -L1082: [Init] Begin.
+[2022-06-23 15:55:05:0163] | Info     | Manager.cpp              -L1115: [Init] end success.
+[2022-06-23 15:55:05:0163] | Info     | Manager.cpp              -L0465: [BindDevBySomeWay] start. chParm[00K14280159].
+[2022-06-23 15:55:05:0163] | Info     | CameraModule.cpp         -L0085: [Enum] begin.
+[2022-06-23 15:55:05:0297] | Info     | CameraModule.cpp         -L0102: [Enum] enum by gige sdk, get camera num:[1].
+[2022-06-23 15:55:05:0297] | Info     | CameraModule.cpp         -L0105: [Enum] end success.
+[2022-06-23 15:55:05:0297] | Info     | Manager.cpp              -L0569: [CompareBindParm] param bFind[1]  nFindNum[0] .
+[2022-06-23 15:55:05:0297] | Info     | Manager.cpp              -L1042: [CreateHandle] begin.
+[2022-06-23 15:55:05:0297] | Info     | CameraModule.cpp         -L0156: [CreateHandle] Get Gige Sdk version:(0x4000004).
+[2022-06-23 15:55:05:0360] | Info     | Manager.cpp              -L1075: [CreateHandle] end success.
+[2022-06-23 15:55:05:0360] | Info     | Manager.cpp              -L0494: [BindDevBySomeWay] end. chParm[00K14280159].
+[2022-06-23 15:55:05:0360] | Info     | Manager.cpp              -L0382: [BindDevice] bind device SN[00K14280159] Model[MV-EB435i] ip[2bdf00K14280159] SubNetmask[] gateway[].
+[2022-06-23 15:55:05:0360] | Info     | Manager.cpp              -L0933: [ConnectDevice] begin.
+[2022-06-23 15:55:05:0579] | Info     | Manager.cpp              -L0978: [ConnectDevice] Get BufferNode count from C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini\BufferNode, value[5].
+[2022-06-23 15:55:05:0579] | Info     | Manager.cpp              -L0986: [ConnectDevice] SetImageNodeNum value[5].
+[2022-06-23 15:55:05:0581] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(CameraWorkingMode) nValue(4).
+[2022-06-23 15:55:05:0583] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ImageMode) nValue(2).
+[2022-06-23 15:55:05:0585] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkModeActive) bValue(1).
+[2022-06-23 15:55:05:0585] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(24).
+[2022-06-23 15:55:05:0587] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-23 15:55:05:0587] | Error    | Manager.cpp              -L0898: m_nDeviceType:00000004.
+[2022-06-23 15:55:05:0588] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(19).
+[2022-06-23 15:55:05:0589] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-23 15:55:05:0589] | Info     | Manager.cpp              -L1035: [ConnectDevice] end success.
+[2022-06-23 15:55:05:0589] | Info     | Manager.cpp              -L1482: [Start] begin.
+[2022-06-23 15:55:12:0971] | Info     | Manager.cpp              -L1655: ---------------------Start call Mv3dRgbd.dll start--------------------
+[2022-06-23 15:55:12:0971] | Info     | Manager.cpp              -L1659: Build Time[220615_14:20:53], SDK version[0x1000003].
+[2022-06-23 15:55:12:0971] | Info     | Manager.cpp              -L1661: Mv3dRgbd.dll path [C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbd.dll]
+[2022-06-23 15:55:12:0971] | Info     | Manager.cpp              -L1662: Current ExE path [E:\Mv3dRgbdSDK\Sample\Open3D\bin\win64\debug\Open3D.exe]
+[2022-06-23 15:55:12:0971] | Info     | Manager.cpp              -L1667: Config (C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini) exist .
+[2022-06-23 15:55:12:0971] | Info     | Manager.cpp              -L1674: DebugMode[0], nLogSize[100].
+[2022-06-23 15:55:12:0971] | Info     | Manager.cpp              -L1082: [Init] Begin.
+[2022-06-23 15:55:12:0972] | Info     | Manager.cpp              -L1115: [Init] end success.
+[2022-06-23 15:55:12:0972] | Info     | Manager.cpp              -L0465: [BindDevBySomeWay] start. chParm[00K14280159].
+[2022-06-23 15:55:12:0972] | Info     | CameraModule.cpp         -L0085: [Enum] begin.
+[2022-06-23 15:55:13:0105] | Info     | CameraModule.cpp         -L0102: [Enum] enum by gige sdk, get camera num:[1].
+[2022-06-23 15:55:13:0105] | Info     | CameraModule.cpp         -L0105: [Enum] end success.
+[2022-06-23 15:55:13:0105] | Info     | Manager.cpp              -L0569: [CompareBindParm] param bFind[1]  nFindNum[0] .
+[2022-06-23 15:55:13:0105] | Info     | Manager.cpp              -L1042: [CreateHandle] begin.
+[2022-06-23 15:55:13:0105] | Info     | CameraModule.cpp         -L0156: [CreateHandle] Get Gige Sdk version:(0x4000004).
+[2022-06-23 15:55:13:0165] | Info     | Manager.cpp              -L1075: [CreateHandle] end success.
+[2022-06-23 15:55:13:0165] | Info     | Manager.cpp              -L0494: [BindDevBySomeWay] end. chParm[00K14280159].
+[2022-06-23 15:55:13:0165] | Info     | Manager.cpp              -L0382: [BindDevice] bind device SN[00K14280159] Model[MV-EB435i] ip[2bdf00K14280159] SubNetmask[] gateway[].
+[2022-06-23 15:55:13:0165] | Info     | Manager.cpp              -L0933: [ConnectDevice] begin.
+[2022-06-23 15:55:13:0398] | Info     | Manager.cpp              -L0978: [ConnectDevice] Get BufferNode count from C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini\BufferNode, value[5].
+[2022-06-23 15:55:13:0398] | Info     | Manager.cpp              -L0986: [ConnectDevice] SetImageNodeNum value[5].
+[2022-06-23 15:55:13:0399] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(CameraWorkingMode) nValue(4).
+[2022-06-23 15:55:13:0400] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ImageMode) nValue(2).
+[2022-06-23 15:55:13:0402] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkModeActive) bValue(1).
+[2022-06-23 15:55:13:0402] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(24).
+[2022-06-23 15:55:13:0404] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-23 15:55:13:0404] | Error    | Manager.cpp              -L0898: m_nDeviceType:00000004.
+[2022-06-23 15:55:13:0404] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(19).
+[2022-06-23 15:55:13:0406] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-23 15:55:13:0406] | Info     | Manager.cpp              -L1035: [ConnectDevice] end success.
+[2022-06-23 15:55:13:0406] | Info     | Manager.cpp              -L1482: [Start] begin.
+[2022-06-23 15:55:13:0520] | Info     | Manager.cpp              -L1510: [Start] StartGrabbing success.
+[2022-06-23 15:55:13:0520] | Info     | Manager.cpp              -L1516: [Start] end success.
+[2022-06-23 15:55:13:0520] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [7].
+[2022-06-23 15:55:13:0520] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[0] to [7].
+[2022-06-23 15:55:13:0522] | Info     | Manager.cpp              -L2582: [DepthMapConvert] m_pDepthBuffer new success.
+[2022-06-23 15:55:13:0522] | Info     | Manager.cpp              -L2603: [DepthMapConvert] m_pPointBuffer new success.
+[2022-06-23 15:55:13:0522] | Info     | Manager.cpp              -L1872: [CamGetDeviceInfo] device SN[00K14280159] ModelName[MV-EB435i] ip[2bdf00K14280159] SubNetmask[] gateway[] 
+[2022-06-23 15:55:13:0522] | Info     | Manager.cpp              -L2621: [DepthMapConvert] RGBDSensorCali camSerialNum(00K14280159).
+[2022-06-23 15:55:13:0847] | Info     | CameraModule.cpp         -L1095: [FileAccessRead] MV_CC_FileAccessRead success.
+[2022-06-23 15:55:13:0847] | Info     | DepthConvertVm.cpp       -L0076: [CDepthConvertVm::Init] begin.
+[2022-06-23 15:55:13:0847] | Info     | DepthConvertVm.cpp       -L0042: [CDepthConvertVm::DeInit] begin.
+[2022-06-23 15:55:13:0847] | Info     | DepthConvertVm.cpp       -L0068: [CDepthConvertVm::DeInit] end.
+[2022-06-23 15:55:13:0847] | Info     | DepthConvertVm.cpp       -L0106: [CDepthConvertVm::Init] m_stBinoMemTab[0].size[384], m_stBinoMemTab[1].size[0].
+[2022-06-23 15:55:13:0847] | Info     | DepthConvertVm.cpp       -L0158: [CDepthConvertVm::Init] MVB3D_BINOSTEREO_Create success.
+[2022-06-23 15:55:13:0847] | Info     | DepthConvertVm.cpp       -L0169: [CDepthConvertVm::Init] end.
+[2022-06-23 15:55:20:0191] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [54].
+[2022-06-23 15:55:20:0191] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[7] to [54].
+[2022-06-23 15:55:24:0573] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [85].
+[2022-06-23 15:55:24:0573] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[54] to [85].
+[2022-06-23 15:55:28:0851] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [115].
+[2022-06-23 15:55:28:0851] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[85] to [115].
+[2022-06-23 15:55:33:0413] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [141].
+[2022-06-23 15:55:33:0413] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[115] to [141].
+[2022-06-24 22:50:00:0590] | Info     | Manager.cpp              -L1655: ---------------------Start call Mv3dRgbd.dll start--------------------
+[2022-06-24 22:50:00:0590] | Info     | Manager.cpp              -L1659: Build Time[220615_14:20:53], SDK version[0x1000003].
+[2022-06-24 22:50:00:0590] | Info     | Manager.cpp              -L1661: Mv3dRgbd.dll path [C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbd.dll]
+[2022-06-24 22:50:00:0590] | Info     | Manager.cpp              -L1662: Current ExE path [E:\Mv3dRgbdSDK\Sample\Open3D\bin\win64\debug\Open3D.exe]
+[2022-06-24 22:50:00:0590] | Info     | Manager.cpp              -L1667: Config (C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini) exist .
+[2022-06-24 22:50:00:0590] | Info     | Manager.cpp              -L1674: DebugMode[0], nLogSize[100].
+[2022-06-24 22:50:00:0590] | Info     | Manager.cpp              -L1082: [Init] Begin.
+[2022-06-24 22:50:00:0592] | Info     | Manager.cpp              -L1115: [Init] end success.
+[2022-06-24 22:50:00:0592] | Info     | Manager.cpp              -L0465: [BindDevBySomeWay] start. chParm[00K14280159].
+[2022-06-24 22:50:00:0592] | Info     | CameraModule.cpp         -L0085: [Enum] begin.
+[2022-06-24 22:50:00:0724] | Info     | CameraModule.cpp         -L0102: [Enum] enum by gige sdk, get camera num:[1].
+[2022-06-24 22:50:00:0724] | Info     | CameraModule.cpp         -L0105: [Enum] end success.
+[2022-06-24 22:50:00:0724] | Info     | Manager.cpp              -L0569: [CompareBindParm] param bFind[1]  nFindNum[0] .
+[2022-06-24 22:50:00:0724] | Info     | Manager.cpp              -L1042: [CreateHandle] begin.
+[2022-06-24 22:50:00:0724] | Info     | CameraModule.cpp         -L0156: [CreateHandle] Get Gige Sdk version:(0x4000004).
+[2022-06-24 22:50:00:0797] | Info     | Manager.cpp              -L1075: [CreateHandle] end success.
+[2022-06-24 22:50:00:0797] | Info     | Manager.cpp              -L0494: [BindDevBySomeWay] end. chParm[00K14280159].
+[2022-06-24 22:50:00:0797] | Info     | Manager.cpp              -L0382: [BindDevice] bind device SN[00K14280159] Model[MV-EB435i] ip[2bdf00K14280159] SubNetmask[] gateway[].
+[2022-06-24 22:50:00:0797] | Info     | Manager.cpp              -L0933: [ConnectDevice] begin.
+[2022-06-24 22:50:01:0015] | Info     | Manager.cpp              -L0978: [ConnectDevice] Get BufferNode count from C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini\BufferNode, value[5].
+[2022-06-24 22:50:01:0015] | Info     | Manager.cpp              -L0986: [ConnectDevice] SetImageNodeNum value[5].
+[2022-06-24 22:50:01:0017] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(CameraWorkingMode) nValue(4).
+[2022-06-24 22:50:01:0019] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ImageMode) nValue(2).
+[2022-06-24 22:50:01:0021] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkModeActive) bValue(1).
+[2022-06-24 22:50:01:0021] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(24).
+[2022-06-24 22:50:01:0023] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-24 22:50:01:0023] | Error    | Manager.cpp              -L0898: m_nDeviceType:00000004.
+[2022-06-24 22:50:01:0023] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(19).
+[2022-06-24 22:50:01:0025] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-24 22:50:01:0025] | Info     | Manager.cpp              -L1035: [ConnectDevice] end success.
+[2022-06-24 22:50:01:0025] | Info     | Manager.cpp              -L1482: [Start] begin.
+[2022-06-24 22:50:07:0855] | Info     | Manager.cpp              -L1655: ---------------------Start call Mv3dRgbd.dll start--------------------
+[2022-06-24 22:50:07:0855] | Info     | Manager.cpp              -L1659: Build Time[220615_14:20:53], SDK version[0x1000003].
+[2022-06-24 22:50:07:0855] | Info     | Manager.cpp              -L1661: Mv3dRgbd.dll path [C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbd.dll]
+[2022-06-24 22:50:07:0855] | Info     | Manager.cpp              -L1662: Current ExE path [E:\Mv3dRgbdSDK\Sample\Open3D\bin\win64\debug\Open3D.exe]
+[2022-06-24 22:50:07:0855] | Info     | Manager.cpp              -L1667: Config (C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini) exist .
+[2022-06-24 22:50:07:0855] | Info     | Manager.cpp              -L1674: DebugMode[0], nLogSize[100].
+[2022-06-24 22:50:07:0855] | Info     | Manager.cpp              -L1082: [Init] Begin.
+[2022-06-24 22:50:07:0856] | Info     | Manager.cpp              -L1115: [Init] end success.
+[2022-06-24 22:50:07:0856] | Info     | Manager.cpp              -L0465: [BindDevBySomeWay] start. chParm[00K14280159].
+[2022-06-24 22:50:07:0856] | Info     | CameraModule.cpp         -L0085: [Enum] begin.
+[2022-06-24 22:50:07:0985] | Info     | CameraModule.cpp         -L0102: [Enum] enum by gige sdk, get camera num:[1].
+[2022-06-24 22:50:07:0985] | Info     | CameraModule.cpp         -L0105: [Enum] end success.
+[2022-06-24 22:50:07:0985] | Info     | Manager.cpp              -L0569: [CompareBindParm] param bFind[1]  nFindNum[0] .
+[2022-06-24 22:50:07:0985] | Info     | Manager.cpp              -L1042: [CreateHandle] begin.
+[2022-06-24 22:50:07:0985] | Info     | CameraModule.cpp         -L0156: [CreateHandle] Get Gige Sdk version:(0x4000004).
+[2022-06-24 22:50:08:0048] | Info     | Manager.cpp              -L1075: [CreateHandle] end success.
+[2022-06-24 22:50:08:0048] | Info     | Manager.cpp              -L0494: [BindDevBySomeWay] end. chParm[00K14280159].
+[2022-06-24 22:50:08:0048] | Info     | Manager.cpp              -L0382: [BindDevice] bind device SN[00K14280159] Model[MV-EB435i] ip[2bdf00K14280159] SubNetmask[] gateway[].
+[2022-06-24 22:50:08:0048] | Info     | Manager.cpp              -L0933: [ConnectDevice] begin.
+[2022-06-24 22:50:08:0276] | Info     | Manager.cpp              -L0978: [ConnectDevice] Get BufferNode count from C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini\BufferNode, value[5].
+[2022-06-24 22:50:08:0276] | Info     | Manager.cpp              -L0986: [ConnectDevice] SetImageNodeNum value[5].
+[2022-06-24 22:50:08:0277] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(CameraWorkingMode) nValue(4).
+[2022-06-24 22:50:08:0279] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ImageMode) nValue(2).
+[2022-06-24 22:50:08:0280] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkModeActive) bValue(1).
+[2022-06-24 22:50:08:0280] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(24).
+[2022-06-24 22:50:08:0282] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-24 22:50:08:0282] | Error    | Manager.cpp              -L0898: m_nDeviceType:00000004.
+[2022-06-24 22:50:08:0282] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(19).
+[2022-06-24 22:50:08:0283] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-06-24 22:50:08:0283] | Info     | Manager.cpp              -L1035: [ConnectDevice] end success.
+[2022-06-24 22:50:08:0283] | Info     | Manager.cpp              -L1482: [Start] begin.
+[2022-06-24 22:50:08:0399] | Info     | Manager.cpp              -L1510: [Start] StartGrabbing success.
+[2022-06-24 22:50:08:0399] | Info     | Manager.cpp              -L1516: [Start] end success.
+[2022-06-24 22:50:08:0450] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [11].
+[2022-06-24 22:50:08:0450] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[0] to [11].
+[2022-06-24 22:50:08:0452] | Info     | Manager.cpp              -L2582: [DepthMapConvert] m_pDepthBuffer new success.
+[2022-06-24 22:50:08:0452] | Info     | Manager.cpp              -L2603: [DepthMapConvert] m_pPointBuffer new success.
+[2022-06-24 22:50:08:0452] | Info     | Manager.cpp              -L1872: [CamGetDeviceInfo] device SN[00K14280159] ModelName[MV-EB435i] ip[2bdf00K14280159] SubNetmask[] gateway[] 
+[2022-06-24 22:50:08:0452] | Info     | Manager.cpp              -L2621: [DepthMapConvert] RGBDSensorCali camSerialNum(00K14280159).
+[2022-06-24 22:50:08:0721] | Info     | CameraModule.cpp         -L1095: [FileAccessRead] MV_CC_FileAccessRead success.
+[2022-06-24 22:50:08:0722] | Info     | DepthConvertVm.cpp       -L0076: [CDepthConvertVm::Init] begin.
+[2022-06-24 22:50:08:0722] | Info     | DepthConvertVm.cpp       -L0042: [CDepthConvertVm::DeInit] begin.
+[2022-06-24 22:50:08:0722] | Info     | DepthConvertVm.cpp       -L0068: [CDepthConvertVm::DeInit] end.
+[2022-06-24 22:50:08:0722] | Info     | DepthConvertVm.cpp       -L0106: [CDepthConvertVm::Init] m_stBinoMemTab[0].size[384], m_stBinoMemTab[1].size[0].
+[2022-06-24 22:50:08:0722] | Info     | DepthConvertVm.cpp       -L0158: [CDepthConvertVm::Init] MVB3D_BINOSTEREO_Create success.
+[2022-06-24 22:50:08:0722] | Info     | DepthConvertVm.cpp       -L0169: [CDepthConvertVm::Init] end.
+[2022-06-24 22:50:11:0132] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [29].
+[2022-06-24 22:50:11:0132] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[11] to [29].
+[2022-06-24 22:50:17:0720] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [75].
+[2022-06-24 22:50:17:0720] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[29] to [75].
