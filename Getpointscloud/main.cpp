@@ -1,6 +1,5 @@
 
 #include "../common/common.hpp"
-//#include "../common/RenderImage.hpp"
 #include <iostream>
 #include <fstream>
 #include <algorithm>
@@ -17,7 +16,7 @@ int main()
     ASSERT(nDevNum);
 
 
-    // ²éÕÒÉè±¸
+    // æŸ¥æ‰¾è®¾å¤‡
     std::vector<MV3D_RGBD_DEVICE_INFO> devs(nDevNum);
     ASSERT_OK(MV3D_RGBD_GetDeviceList(DeviceType_USB, &devs[0], nDevNum, &nDevNum));
     for (unsigned int i = 0; i < nDevNum; i++)
@@ -25,17 +24,17 @@ int main()
         LOG("Index[%d]. SerialNum[%s] IP[%s] name[%s].\r\n", i, devs[i].chSerialNumber, devs[i].SpecialInfo.stNetInfo.chCurrentIp, devs[i].chModelName);
     }
 
-    //´ò¿ªÉè±¸
+    //æ‰“å¼€è®¾å¤‡
     void* handle = NULL;
     unsigned int nIndex = 0;
     ASSERT_OK(MV3D_RGBD_OpenDevice(&handle, &devs[nIndex]));
     LOGD("OpenDevice success.");
 
-    // ¿ªÊ¼¹¤×÷Á÷³Ì
+    // å¼€å§‹å·¥ä½œæµç¨‹
     ASSERT_OK(MV3D_RGBD_Start(handle));
     LOGD("Start work success.");
 
-    //´ò¿ª´æ´¢ÎÄ¼þ
+    //æ‰“å¼€å­˜å‚¨æ–‡ä»¶
     std::ofstream os;
     std::string path = "D:\\points\\";
     int flagnum = 0;
@@ -44,28 +43,28 @@ int main()
     MV3D_RGBD_FRAME_DATA stFrameData = { 0 };
     while (exit_flag)
     {
-        // »ñÈ¡Í¼ÏñÊý¾Ý
+        // èŽ·å–å›¾åƒæ•°æ®
         int nRet = MV3D_RGBD_FetchFrame(handle, &stFrameData, 5000);
-        //»ñÈ¡Í¼ÏñÖ¡
+        //èŽ·å–å›¾åƒå¸§
         if (MV3D_RGBD_OK == nRet)
         {
-            //Í¼ÏñÖ¡ºÜ¶àÀàÐÍ£¬µ±ÀàÐÍÎªÉî¶ÈÊ±½«Æä×ª»»ÎªµãÔÆ
+            //å›¾åƒå¸§å¾ˆå¤šç±»åž‹ï¼Œå½“ç±»åž‹ä¸ºæ·±åº¦æ—¶å°†å…¶è½¬æ¢ä¸ºç‚¹äº‘
             for (int i = 0; i < stFrameData.nImageCount; i++)
             {
-                //ÈôÊÇÉî¶È¸ñÊ½Ôò¿ªÊ¼×ª»»
+                //è‹¥æ˜¯æ·±åº¦æ ¼å¼åˆ™å¼€å§‹è½¬æ¢
                 if (ImageType_Depth == stFrameData.stImageData[i].enImageType)
                 {
                     path = "D:\\points\\" + std::to_string(flagnum) + ".xyz";
                     os.open(path, std::ios::app);
                     flagnum++;
                     MV3D_RGBD_IMAGE_DATA stPointCloudImage;
-                    //½«µ±Ç°Ö¡×ª»»ÎªµãÔÆ
+                    //å°†å½“å‰å¸§è½¬æ¢ä¸ºç‚¹äº‘
                     nRet = MV3D_RGBD_MapDepthToPointCloud(handle, &stFrameData.stImageData[i], &stPointCloudImage);
-                    //pPtr Ö¸Ïò µãÔÆ´æ´¢ÆðÊ¼µØÖ·
+                    //pPtr æŒ‡å‘ ç‚¹äº‘å­˜å‚¨èµ·å§‹åœ°å€
                     float* pPtr = (float*)stPointCloudImage.pData;
                     int nPointNum = stPointCloudImage.nDataLen / (sizeof(float) * 3);
 
-                    //´ÓµÚÒ»¸öµãÔÆ¿ªÊ¼ÏòÎÄ¼þÁ÷ÖÐÐ´Èë xyz ×ø±ê
+                    //ä»Žç¬¬ä¸€ä¸ªç‚¹äº‘å¼€å§‹å‘æ–‡ä»¶æµä¸­å†™å…¥ xyz åæ ‡
                     LOGD("Start write Points of %d framenum!", stPointCloudImage.nFrameNum);
                     for (int nPntIndex = 0; nPntIndex < nPointNum; ++nPntIndex)
                     {
@@ -80,7 +79,7 @@ int main()
                 }
 
 
-                //Èô»ñÈ¡Í¼ÏñÖ¡Ê§°ÜÔòÍË³ö
+                //è‹¥èŽ·å–å›¾åƒå¸§å¤±è´¥åˆ™é€€å‡º
                 if (MV3D_RGBD_OK != nRet)
                 {
                     break;
@@ -89,7 +88,7 @@ int main()
             }
 
         }
-        //°´¼üÍË³ö
+        //æŒ‰é”®é€€å‡º
         if (_kbhit())
         {
             exit_flag = FALSE;
